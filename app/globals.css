@@ -31,3 +31,18 @@
     scroll-behavior: auto !important;
   }
 }
+
+/* Better line breaks on headlines */
+.text-balance {
+  text-wrap: balance;
+}
+
+/* Smoother type rendering for big headings */
+.heading-tight {
+  letter-spacing: -0.02em;
+}
+
+/* Subtle hairline borders on dark */
+.hairline {
+  box-shadow: inset 0 0 0 1px rgba(255,255,255,0.06);
+}
